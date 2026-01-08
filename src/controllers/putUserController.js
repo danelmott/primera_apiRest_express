@@ -14,7 +14,7 @@ export default function putUserController(req,res){
         const userIndex = users.findIndex(user => user.id === id);
         
         if(userIndex === -1){
-            return res.status(404).json({message: "no se a encotrado ningun usuario con el id puesto, intentalo de nuevo"});
+            return res.status(404).json({message: "no se ha encontrado ningun usuario con el id puesto, intentalo de nuevo"});
         }
         //actualizando los datos
         users[userIndex] = {

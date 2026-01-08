@@ -197,7 +197,7 @@ curl -X PUT http://localhost:3000/users/1 \
 **Error Response:** `404 Not Found`
 ```json
 {
-  "message": "no se a encotrado ningun usuario con el id puesto, intentalo de nuevo"
+  "message": "no se ha encontrado ningun usuario con el id puesto, intentalo de nuevo"
 }
 ```
 

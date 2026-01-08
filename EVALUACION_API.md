@@ -169,8 +169,8 @@ return res.status(400).json({message: "ingresa un id valido"});
 ### **Código Limpio: 7/10**
 - ✓ Código legible y bien organizado
 - ✓ Nombres descriptivos en español
-- ✗ Algunos typos ("encotrado" en vez de "encontrado")
-- ✗ Falta consistencia en returns
+- ✓ Typos corregidos (ahora consistente)
+- ✓ Returns consistentes en todos los controladores
 
 ### **Arquitectura: 8/10**
 - ✓ Separación de responsabilidades
