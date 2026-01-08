@@ -26,10 +26,10 @@ export default function createUserController(req, res){
         
         users.push(newUser);
         
-        res.status(201).json({message: "usuario creado correctamente", user: newUser});
+        return res.status(201).json({message: "usuario creado correctamente", user: newUser});
     
     } 
     catch (error) {
-        res.status(500).json({message: "server internal error"});
+        return res.status(500).json({message: "server internal error"});
     }
 }
