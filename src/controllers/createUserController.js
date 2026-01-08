@@ -30,6 +30,6 @@ export default function createUserController(req, res){
     
     } 
     catch (error) {
-        res.status(500).json({message: "server internal error"});
+        return res.status(500).json({message: "server internal error"});
     }
 }

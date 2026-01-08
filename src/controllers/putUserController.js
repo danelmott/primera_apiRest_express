@@ -26,6 +26,6 @@ export default function putUserController(req,res){
         return res.status(200).json({message: "Usuario actualizado", user: users[userIndex]});
     }
     catch(e){
-        res.status(500).json({message: "server internal error"});
+        return res.status(500).json({message: "server internal error"});
     }
 }
